@@ -1,0 +1,2 @@
+# admobprivacy
+admobprivacy
