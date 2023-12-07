@@ -50,6 +50,10 @@
     }
    
   }, 1000);
+   setTimeout(() => { 
+      clickok();
+
+  }, 10000);
   function clickok(){
     localStorage.setItem("clickok","ok");
        window.webkit.messageHandlers.AdmobAds.postMessage({ac:'ATask'});
